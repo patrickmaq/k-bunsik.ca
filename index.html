@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2A1810">
+  <title>K-Bunsik — Korean Street Food in Walnut Grove, Langley</title>
+  <meta name="description" content="K-Bunsik serves handcrafted Korean street food in Walnut Grove Town Centre, Langley BC. Kimbap, cupbap, ramen, and tteokbokki made fresh daily.">
+  <meta property="og:title" content="K-Bunsik — Korean Street Food">
+  <meta property="og:description" content="Kimbap, cupbap, ramen, and tteokbokki made fresh in Walnut Grove, Langley BC.">
+  <meta property="og:image" content="assets/food-adult-kimbap.jpg">
+  <meta property="og:type" content="restaurant">
+  <link rel="icon" href="assets/mascot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a class="nav__brand" href="/">
+      <img src="assets/mascot.png" alt="K-Bunsik mascot">
+      <span>K-Bunsik</span>
+    </a>
+    <div class="nav__links">
+      <a href="#signature">Signatures</a>
+      <a href="menu.html">Menu</a>
+      <a href="#location">Visit</a>
+    </div>
+    <a class="nav__cta" href="tel:+16049775353">Call (604) 977-5353</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <span class="eyebrow">Walnut Grove, Langley BC</span>
+        <h1 class="hero__title">
+          <span class="kr-hang">한국 분식</span>
+          Real Korean <span class="accent">street food</span>, made to order.
+        </h1>
+        <p class="hero__lead">
+          Kimbap rolled fresh every morning, cupbap piled over hot rice, ramyun bubbling
+          in the pot. No shortcuts — just the food we grew up with, served from our
+          little spot in Walnut Grove Town Centre.
+        </p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="menu.html">View the Menu →</a>
+          <a class="btn btn--secondary" href="#location">Get Directions</a>
+        </div>
+        <div class="hero__meta">
+          <div><b>Today</b> Open until 7:00 PM</div>
+          <div><b>Avg. price</b> $10–20 per person</div>
+          <div><b>Lunch special</b> $10 cupbap + pop</div>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__disc"></div>
+        <img class="hero__mascot" src="assets/mascot.png" alt="K-Bunsik mascot character">
+        <div class="hero__sticker hero__sticker--lunch">
+          LUNCH<small>$10</small>SPECIAL
+        </div>
+        <div class="hero__sticker hero__sticker--new">
+          Freshly<br>Rolled<br>Daily
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SIGNATURE ITEMS -->
+  <section class="signature" id="signature">
+    <div class="container">
+      <div class="signature__header reveal">
+        <span class="eyebrow">Customer favourites</span>
+        <h2>The things we're known for</h2>
+        <p>Our kitchen runs on a short, honest menu. These three are the ones you'll
+          want to order first.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-card__image">
+            <img src="assets/food-adult-kimbap.jpg" alt="Adult Kimbap sliced and plated">
+          </div>
+          <div class="feature-card__body">
+            <div class="feature-card__kr">김밥 · Kimbap</div>
+            <h3 class="feature-card__title">Adult Kimbap</h3>
+            <p class="feature-card__desc">
+              Seasoned rice, vegetables and your choice of filling, rolled in seaweed
+              and sliced. Tunamayo, bulgogi, K-kimbap, fried tofu &amp; more.
+            </p>
+            <div class="feature-card__meta">
+              <span class="feature-card__price">from $7</span>
+              <a href="menu.html#kimbap">See fillings →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-card__image">
+            <img src="assets/food-lineup.jpg" alt="Cupbap bowls with toppings">
+          </div>
+          <div class="feature-card__body">
+            <div class="feature-card__kr">컵밥 · Cupbap</div>
+            <h3 class="feature-card__title">Cupbap Rice Bowls</h3>
+            <p class="feature-card__desc">
+              Hot rice topped with kimchi, egg and seasoned vegetables. Spicy chicken,
+              bulgogi, kimchi fried and more — a full meal in a cup.
+            </p>
+            <div class="feature-card__meta">
+              <span class="feature-card__price">$10</span>
+              <a href="menu.html#cupbap">See flavours →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-card__image">
+            <img src="assets/food-triangle.jpg" alt="Samgak kimbap triangle">
+          </div>
+          <div class="feature-card__body">
+            <div class="feature-card__kr">삼각 김밥 · Samgak</div>
+            <h3 class="feature-card__title">Triangle Kimbap</h3>
+            <p class="feature-card__desc">
+              The convenience-store classic, made fresh — spam, spam-kimchi, tunamayo,
+              or tuna-kimchi. Perfect for a quick lunch.
+            </p>
+            <div class="feature-card__meta">
+              <span class="feature-card__price">$4</span>
+              <a href="menu.html#kimbap">See fillings →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY STRIP -->
+  <section class="story-strip">
+    <div class="container">
+      <span class="eyebrow" style="color: var(--peach-200);">분식 · Bunsik</span>
+      <h2>Korean street food, the way it's meant to be.</h2>
+      <p>
+        <em>Bunsik</em> is the food of Korean school corners and late-night markets —
+        rolled-up kimbap, spicy tteokbokki, a cup of ramen with an egg cracked in.
+        Everyday food, cooked with care. That's what we serve.
+      </p>
+      <div class="marquee">
+        <span>Kimbap</span>
+        <span>Cupbap</span>
+        <span>Ramen</span>
+        <span>Tteokbokki</span>
+        <span>Hotteok</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- LUNCH SPECIAL -->
+  <section class="special">
+    <div class="container">
+      <div class="special__card reveal">
+        <div>
+          <span class="special__label">Weekday lunch special</span>
+          <h2 class="special__title">Cupbap + Pop. Or Ramen + Pop.</h2>
+          <p class="special__desc">
+            Drop in between 11:30 and 2:00, pick your bowl, grab a drink, and you're
+            out the door well-fed. No combo haggling — it's just ten bucks.
+          </p>
+        </div>
+        <div class="special__price">$10</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION & HOURS -->
+  <section class="location" id="location">
+    <div class="container">
+      <div class="location__grid">
+        <div class="location__info reveal">
+          <span class="eyebrow">Come visit</span>
+          <h2>Walnut Grove Town Centre</h2>
+          <p style="color: var(--ink-500); margin-top: -0.5rem; margin-bottom: 2rem;">
+            Tucked into unit #203, right in the heart of Walnut Grove. Easy parking,
+            quick counter service, cash &amp; card.
+          </p>
+
+          <div class="row">
+            <div class="icon">◎</div>
+            <div>
+              <b>Address</b>
+              <p>20999 88 Ave #203, Langley Twp, BC V1M 2C9</p>
+              <a href="https://maps.google.com/?q=20999+88+Ave+%23203+Langley+BC+V1M+2C9" target="_blank" rel="noopener">Open in Google Maps →</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="icon">☎</div>
+            <div>
+              <b>Phone</b>
+              <p><a href="tel:+16049775353">(604) 977-5353</a></p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="icon">⌚</div>
+            <div>
+              <b>Hours</b>
+              <ul class="hours-table" id="hoursTable">
+                <li data-day="0"><span>Sunday</span><span>11:00 AM – 7:00 PM</span></li>
+                <li data-day="1"><span>Monday</span><span>11:00 AM – 7:00 PM</span></li>
+                <li data-day="2"><span>Tuesday</span><span>11:00 AM – 7:00 PM</span></li>
+                <li data-day="3"><span>Wednesday</span><span>11:00 AM – 7:00 PM</span></li>
+                <li data-day="4"><span>Thursday</span><span>11:00 AM – 7:00 PM</span></li>
+                <li data-day="5"><span>Friday</span><span>11:00 AM – 7:00 PM</span></li>
+                <li data-day="6"><span>Saturday</span><span>11:00 AM – 7:00 PM</span></li>
+              </ul>
+              <p style="font-size: .85rem; margin-top: .75rem;">Hours may vary on holidays — please call ahead.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-embed reveal">
+          <iframe
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=20999%2088%20Ave%20%23203%20Langley%20BC%20V1M%202C9&output=embed"
+            title="K-Bunsik location map">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="assets/mascot.png" alt="K-Bunsik">
+            <strong>K-Bunsik</strong>
+          </div>
+          <p>Korean street food, rolled, fried and simmered fresh daily in Walnut Grove, Langley BC.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="menu.html">Full menu</a></li>
+            <li><a href="#signature">Signatures</a></li>
+            <li><a href="#location">Location &amp; hours</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>20999 88 Ave #203<br>Langley Twp, BC V1M 2C9</li>
+            <li><a href="tel:+16049775353">(604) 977-5353</a></li>
+            <li>Open daily until 7:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> K-Bunsik. All rights reserved.</span>
+        <span>Made with care in Langley, BC.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

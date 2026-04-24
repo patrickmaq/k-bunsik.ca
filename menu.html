@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2A1810">
+  <title>Menu — K-Bunsik · Korean Street Food in Langley BC</title>
+  <meta name="description" content="The full K-Bunsik menu — kimbap (김밥), cupbap, ramen, tteokbokki (떡볶이), fried sides, drinks, and our $10 lunch special.">
+  <link rel="icon" href="assets/mascot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a class="nav__brand" href="index.html">
+      <img src="assets/mascot.png" alt="K-Bunsik mascot">
+      <span>K-Bunsik</span>
+    </a>
+    <div class="nav__links">
+      <a href="index.html#signature">Signatures</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="index.html#location">Visit</a>
+    </div>
+    <a class="nav__cta" href="tel:+16049775353">Call (604) 977-5353</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <!-- MENU HERO -->
+  <header class="menu-hero">
+    <div class="container">
+      <span class="eyebrow">Fresh daily · Walnut Grove</span>
+      <h1>Our Menu</h1>
+      <p>A short list of the things we do well — rolled, fried, ladled and stirred to order. Prices shown in CAD.</p>
+    </div>
+  </header>
+
+  <!-- FILTERS -->
+  <div class="menu-filters">
+    <div class="container menu-filters__row" id="menuFilters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="kimbap">Kimbap</button>
+      <button data-filter="cupbap">Cupbap</button>
+      <button data-filter="ramen">Ramen</button>
+      <button data-filter="tteokbokki">Tteokbokki</button>
+      <button data-filter="sides">Fried &amp; Sides</button>
+      <button data-filter="drinks">Drinks</button>
+    </div>
+  </div>
+
+  <!-- KIMBAP -->
+  <section class="menu-section" id="kimbap" data-category="kimbap">
+    <div class="container">
+      <div class="menu-section__header">
+        <div>
+          <span class="label">김밥</span>
+          <h2>Kimbap</h2>
+        </div>
+        <p class="menu-section__note">Rolled fresh every morning. Seasoned rice, vegetables and fillings wrapped in dried seaweed.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-accent); font-weight: 500; color: var(--coral-600); font-size: 1.4rem; margin-bottom: .5rem;">Youth Kimbap <span class="kr" style="color: var(--ink-500);">꼬마 김밥</span></h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Ham &amp; Cheese <span class="kr">햄 앤 치즈</span></div>
+          </div>
+          <div class="menu-item__price">$3</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Tunamayo <span class="kr">참치마요</span></div>
+          </div>
+          <div class="menu-item__price">$3</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Bulgogi <span class="kr">불고기</span></div>
+          </div>
+          <div class="menu-item__price">$3</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Spam <span class="kr">스팸</span></div>
+          </div>
+          <div class="menu-item__price">$3</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Spicy Odeng <span class="spicy">🌶</span><span class="kr">매운 오뎅</span></div>
+          </div>
+          <div class="menu-item__price">$3</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Veggie <span class="kr">야채</span></div>
+          </div>
+          <div class="menu-item__price">$2.50</div>
+        </div>
+      </div>
+
+      <h3 style="font-family: var(--font-accent); font-weight: 500; color: var(--coral-600); font-size: 1.4rem; margin: 2.5rem 0 .5rem;">Adult Kimbap <span class="kr" style="color: var(--ink-500);">김밥</span></h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Tunamayo <span class="kr">참치마요</span><span class="menu-chip menu-chip--rec">Popular</span></div>
+          </div>
+          <div class="menu-item__price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Bulgogi <span class="kr">불고기</span></div>
+          </div>
+          <div class="menu-item__price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Spam <span class="kr">스팸</span></div>
+          </div>
+          <div class="menu-item__price">$8</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">K-Kimbap</div>
+            <div class="menu-item__desc">House special — ham, egg, pickled radish, spinach, carrot.</div>
+          </div>
+          <div class="menu-item__price">$7</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Fried Tofu <span class="kr">유부</span></div>
+          </div>
+          <div class="menu-item__price">$5</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Diet Kimbap (No Rice)<span class="menu-chip">Low-carb</span></div>
+            <div class="menu-item__desc">All the fillings, wrapped in seaweed — no rice.</div>
+          </div>
+          <div class="menu-item__price">$12</div>
+        </div>
+      </div>
+
+      <h3 style="font-family: var(--font-accent); font-weight: 500; color: var(--coral-600); font-size: 1.4rem; margin: 2.5rem 0 .5rem;">Triangle Kimbap <span class="kr" style="color: var(--ink-500);">삼각 김밥</span></h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div><div class="menu-item__name">Spam <span class="kr">스팸</span></div></div>
+          <div class="menu-item__price">$4</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Spam Kimchi <span class="kr">스팸 김치</span></div></div>
+          <div class="menu-item__price">$4</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Tunamayo <span class="kr">참치마요</span></div></div>
+          <div class="menu-item__price">$4</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Tuna Kimchi <span class="spicy">🌶</span><span class="kr">참치 김치</span></div></div>
+          <div class="menu-item__price">$4</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUPBAP -->
+  <section class="menu-section" id="cupbap" data-category="cupbap" style="background: var(--bone);">
+    <div class="container">
+      <div class="menu-section__header">
+        <div>
+          <span class="label">컵밥</span>
+          <h2>Cupbap</h2>
+        </div>
+        <p class="menu-section__note">All cupbap include kimchi, egg and seasoned vegetables over rice.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div><div class="menu-item__name">Kimchi Fried <span class="spicy">🌶</span></div>
+          <div class="menu-item__desc">Stir-fried kimchi, rice and aromatics, topped with a fried egg.</div></div>
+          <div class="menu-item__price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Bulgogi</div>
+          <div class="menu-item__desc">Marinated beef, lightly sweet, over hot rice.</div></div>
+          <div class="menu-item__price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Tuna Mayo</div>
+          <div class="menu-item__desc">Creamy tuna with sesame, over rice with kimchi and egg.</div></div>
+          <div class="menu-item__price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Spam</div>
+          <div class="menu-item__desc">Pan-fried spam, golden and crisp at the edges.</div></div>
+          <div class="menu-item__price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Spicy Chicken <span class="spicy">🌶</span><span class="menu-chip menu-chip--rec">Popular</span></div>
+          <div class="menu-item__desc">Gochujang-glazed chicken, rice, sesame and scallion.</div></div>
+          <div class="menu-item__price">$10</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RAMEN -->
+  <section class="menu-section" id="ramen" data-category="ramen">
+    <div class="container">
+      <div class="menu-section__header">
+        <div>
+          <span class="label">라면</span>
+          <h2>Ramen &amp; Ramyun</h2>
+        </div>
+        <p class="menu-section__note">Hot, bubbling noodle soup the way it's meant to be — served in the pot, egg on top.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div><div class="menu-item__name">Shin Ramen <span class="spicy">🌶</span></div>
+          <div class="menu-item__desc">The classic spicy Korean ramyun, with egg.</div></div>
+          <div class="menu-item__price">$8</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Jjin Ramen</div>
+          <div class="menu-item__desc">Hearty, savoury beef-based broth.</div></div>
+          <div class="menu-item__price">$8</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Samyang Ramen <span class="spicy">🌶🌶</span></div>
+          <div class="menu-item__desc">Fire-noodle spice level. For the brave.</div></div>
+          <div class="menu-item__price">$8</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Chapagetti</div>
+          <div class="menu-item__desc">Korean black-bean noodles, rich and savoury.</div></div>
+          <div class="menu-item__price">$8</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Buldak <span class="spicy">🌶🌶🌶</span></div>
+          <div class="menu-item__desc">Extreme heat — cheese add-on recommended.</div></div>
+          <div class="menu-item__price">$8</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TTEOKBOKKI -->
+  <section class="menu-section" id="tteokbokki" data-category="tteokbokki" style="background: var(--bone);">
+    <div class="container">
+      <div class="menu-section__header">
+        <div>
+          <span class="label">떡볶이</span>
+          <h2>Tteokbokki</h2>
+        </div>
+        <p class="menu-section__note">Chewy rice cakes in a slow-simmered sauce. Add fried bites, eggs and cheese to build your bowl.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div><div class="menu-item__name">Original <span class="spicy">🌶</span></div>
+          <div class="menu-item__desc">The classic — gochujang, fish cake and rice cakes.</div></div>
+          <div class="menu-item__price">$9</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Rosé <span class="menu-chip menu-chip--rec">New</span></div>
+          <div class="menu-item__desc">Creamy-spicy tomato &amp; cream sauce, smoother heat.</div></div>
+          <div class="menu-item__price">$11</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">One and Half</div>
+          <div class="menu-item__desc">A larger bowl — great to share.</div></div>
+          <div class="menu-item__price">$14</div>
+        </div>
+      </div>
+
+      <h3 style="font-family: var(--font-accent); font-weight: 500; color: var(--coral-600); font-size: 1.4rem; margin: 2.5rem 0 .5rem;">Fried Addition <span style="color: var(--ink-500); font-size: .9rem; font-family: var(--font-body); font-weight: 400;">(1 piece each)</span></h3>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Kimmari <span class="kr">김말이</span></div><div class="menu-item__desc">Glass-noodle seaweed roll, fried.</div></div><div class="menu-item__price">$2</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Squid <span class="kr">오징어</span></div></div><div class="menu-item__price">$2</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Veggie Tempura</div></div><div class="menu-item__price">$2</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Glass Noodle Mandu <span class="kr">만두</span></div></div><div class="menu-item__price">$2</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DRINKS, EXTRAS & SIDES -->
+  <section class="menu-section" id="sides" data-category="sides drinks">
+    <div class="container">
+      <div class="menu-section__header">
+        <div>
+          <span class="label">더하기</span>
+          <h2>Drinks, Sides &amp; Sweet Bites</h2>
+        </div>
+      </div>
+
+      <h3 style="font-family: var(--font-accent); font-weight: 500; color: var(--coral-600); font-size: 1.4rem; margin-bottom: .5rem;">Drinks</h3>
+      <div class="menu-grid" data-category="drinks">
+        <div class="menu-item"><div><div class="menu-item__name">Canned Pop</div></div><div class="menu-item__price">$2.5</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Korean Instant Coffee</div></div><div class="menu-item__price">$2.5</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Americano</div></div><div class="menu-item__price">$3.5</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Cappuccino</div></div><div class="menu-item__price">$4</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Lemonade</div></div><div class="menu-item__price">$3.5</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Green Grape Ade</div></div><div class="menu-item__price">$4.5</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Water</div></div><div class="menu-item__price">$1.5</div></div>
+      </div>
+
+      <h3 style="font-family: var(--font-accent); font-weight: 500; color: var(--coral-600); font-size: 1.4rem; margin: 2.5rem 0 .5rem;">Extras</h3>
+      <div class="menu-grid" data-category="sides">
+        <div class="menu-item"><div><div class="menu-item__name">Boiled Egg</div></div><div class="menu-item__price">$1.5</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Egg (road)</div><div class="menu-item__desc">Soft-scrambled over-rice-style.</div></div><div class="menu-item__price">$2</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Cheese</div></div><div class="menu-item__price">$2</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Mozzarella</div></div><div class="menu-item__price">$3</div></div>
+      </div>
+
+      <h3 style="font-family: var(--font-accent); font-weight: 500; color: var(--coral-600); font-size: 1.4rem; margin: 2.5rem 0 .5rem;">Sweet Bites</h3>
+      <div class="menu-grid" data-category="sides">
+        <div class="menu-item"><div><div class="menu-item__name">Hotteok <span class="kr">호떡</span><span class="menu-chip menu-chip--rec">Popular</span></div><div class="menu-item__desc">Warm sweet Korean pancake, brown-sugar cinnamon filling.</div></div><div class="menu-item__price">$4</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Mini Melts</div><div class="menu-item__desc">Soft bites, lightly sweetened.</div></div><div class="menu-item__price">$4</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Fish Cake Skewer <span class="kr">어묵</span></div></div><div class="menu-item__price">$2.5</div></div>
+      </div>
+
+      <div class="menu-note">
+        <b>Lunch Special — $10</b> · Any cupbap + canned pop, OR any ramen + canned pop. Available weekdays 11:30 AM–2:00 PM.
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="assets/mascot.png" alt="K-Bunsik">
+            <strong>K-Bunsik</strong>
+          </div>
+          <p>Korean street food, rolled, fried and simmered fresh daily in Walnut Grove, Langley BC.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full menu</a></li>
+            <li><a href="index.html#location">Location &amp; hours</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>20999 88 Ave #203<br>Langley Twp, BC V1M 2C9</li>
+            <li><a href="tel:+16049775353">(604) 977-5353</a></li>
+            <li>Open daily until 7:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> K-Bunsik. All rights reserved.</span>
+        <span>Made with care in Langley, BC.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
